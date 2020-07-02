@@ -98,4 +98,8 @@
     .info-block__colors {
         padding: 0;
     }
+
+    .info-item {
+        margin: 28px 0 0 0;
+    }
 }
