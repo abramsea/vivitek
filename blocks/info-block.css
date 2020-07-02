@@ -1,0 +1,39 @@
+.info-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.info-block__image {
+    max-width: 860px;
+    display: block;
+    margin: 32px auto;
+}
+
+.info-block__info {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(498px, 1fr) );
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin: 48px 0 0 0;
+}
+
+.info-item__icon {
+    width: 32px;
+    align-self: flex-start;
+    margin: 0 32px 0 0;
+}
+
+.info-item__text {
+    font-size: 24px;
+}
+
+.info-block__buttons {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 0 0;
+}

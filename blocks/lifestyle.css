@@ -1,0 +1,9 @@
+.lifestyle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lifestyle__image {
+    width: 49%;
+    align-self: center;
+}
