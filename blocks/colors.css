@@ -61,3 +61,20 @@
     font-size: 24px;
     margin: 0 0 0 16px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .color-circle {
+        height: 24px;
+        width: 24px;
+    }
+
+    .color-name {
+        font-size: 16px;
+        margin: 0 0 0 12px;
+    }
+
+    .color {
+        margin: 8px 0 0 0;
+    }
+}
